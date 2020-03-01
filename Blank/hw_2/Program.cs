@@ -6,14 +6,17 @@ namespace hw_2
     {
         static void Main(string[] args)
         {
-           // 1. Объявить файл и указать к нему путь
-           // 2. Считать файл
-           // 3. Создать массив, который хранит все строки в файле
-           // 4. Создать массив байтов
-           // 5. Конвертировать каждую строку в переменную типа byte
-           // 6. Записывать полученное значение переменной в массив байтов
-           // 7. Записать файл в виде изображения по указанному пути
-           // 8. Освободить ресурсы
+            StreamReader textReader = new StreamReader(@"D:\hw_2\image.txt");
+            string textReaderResult = textReader.ReadToEnd();
+            string[] arrayOfTextResult = textReaderResult.Split(' ');
+            byte[] imageBytes = new byte[arrayOfTextResult.Length - 1];
+            for (int i = 0; i < arrayOfTextResult.Length - 1; i++)
+            {
+                byte binary = Convert.ToByte(arrayOfTextResult[i], 2);
+                imageBytes[i] = binary;
+            }
+            File.WriteAllBytes(@"D:\hw_2\image.png", imageBytes);
+            textReader.Dispose();
         }
     }
 }
