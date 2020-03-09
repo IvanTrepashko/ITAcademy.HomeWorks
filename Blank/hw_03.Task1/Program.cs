@@ -37,7 +37,7 @@ namespace hw_03.Task1
 
             ushort sh =(ushort)(int)ob_int;
             int it = (int)(char)ob_char;
-
+            byte bt = Convert.ToByte((bool)f);
         }   
     }
 }
