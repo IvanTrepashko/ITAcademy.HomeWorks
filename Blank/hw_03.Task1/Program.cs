@@ -28,13 +28,15 @@ namespace hw_03.Task1
 
             //Boxing
        
-            Object ob_int, ob_bool, ob_char;
+            Object ob_int, ob_bool, ob_char,ob;
             ob_int = b;
             ob_bool = f;
             ob_char = ch;
+            ob = a;
 
             // Unboxing
 
+            short shor= (short)ob;
             ushort sh =(ushort)(int)ob_int;
             int it = (int)(char)ob_char;
             byte bt = Convert.ToByte((bool)f);
