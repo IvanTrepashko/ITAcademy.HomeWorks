@@ -7,7 +7,7 @@ namespace HW_03.Task2
         static void Main(string[] args)
         {
             bool a=default;
-            System.Boolean b = default;
+            System.Boolean b=default;
             Console.WriteLine(a.GetType());
             Console.WriteLine(b.GetType());
             
