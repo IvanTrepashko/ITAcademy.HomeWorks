@@ -131,7 +131,6 @@ namespace hw_08.Task2
                 {
                     if (arr[j].Length < arr[j + 1].Length)
                     {
-                        // меняем элементы местами
                         string temp = arr[j];
                         arr[j] = arr[j + 1];
                         arr[j + 1] = temp;
