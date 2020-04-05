@@ -23,7 +23,7 @@ namespace hw_09.Task2
 
         public void SetInformation()
         {
-            Console.WriteLine("Hello! Please, enter your full name\n");
+            Console.WriteLine("Hello! Please, enter your full name.\n");
             FullName = Console.ReadLine();
             Console.WriteLine("Please, enter you passport ID (Example : AB2901224)");
             PassportID = Console.ReadLine();
