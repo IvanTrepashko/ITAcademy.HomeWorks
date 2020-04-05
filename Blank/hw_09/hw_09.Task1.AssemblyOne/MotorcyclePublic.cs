@@ -20,7 +20,6 @@ namespace hw_09.Task1.AssemblyOne
         protected internal int odometrProtectedInternal = 1000;
         private protected int odometrPrivateProtected = 1000;
 
-
         internal void StartEngineInternal()
         {
             Console.WriteLine("Starting Engine");

@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace hw_09.Task1.AssemblyOne
 {
@@ -19,7 +17,6 @@ namespace hw_09.Task1.AssemblyOne
         public int odometrPublic = 1000;
         protected internal int odometrProtectedInternal = 1000;
         private protected int odometrPrivateProtected = 1000;
-
 
         internal void StartEngineInternal()
         {

@@ -10,6 +10,9 @@ namespace hw_09.Task1.AssemblyTwo
         {
             SportBike bike = new SportBike();
             bike.InheritedItems();
+
+            // Internal classes are not available
+            // MotorcycleInternal moto = new MotorcycleInternal(); 
         }
     }
 }
