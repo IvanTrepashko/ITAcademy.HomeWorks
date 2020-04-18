@@ -1,0 +1,22 @@
+2020-04-18 16:25:47,828 INFO  - Application started hw_11.Program
+2020-04-18 16:25:47,835 INFO  - Creating hw_11.Circle
+2020-04-18 16:25:47,835 INFO  - Creating hw_11.Triangle
+2020-04-18 16:25:47,835 INFO  - Creating hw_11.Square
+2020-04-18 16:25:47,835 INFO  - Calculating area
+2020-04-18 16:25:47,836 INFO  - Showing information
+2020-04-18 16:25:47,838 INFO  - Calculating area
+2020-04-18 16:25:47,838 INFO  - Showing information
+2020-04-18 16:25:47,838 INFO  - Calculating area
+2020-04-18 16:25:47,839 INFO  - Showing information
+2020-04-18 16:25:47,839 INFO  - Application ended
+2020-04-18 16:26:01,253 INFO  - Application started hw_11.Program
+2020-04-18 16:26:01,261 INFO  - Creating hw_11.Circle
+2020-04-18 16:26:01,261 INFO  - Creating hw_11.Triangle
+2020-04-18 16:26:01,262 INFO  - Creating hw_11.Square
+2020-04-18 16:26:01,262 INFO  - Calculating area
+2020-04-18 16:26:01,263 INFO  - Showing information
+2020-04-18 16:26:01,264 INFO  - Calculating area
+2020-04-18 16:26:01,264 INFO  - Showing information
+2020-04-18 16:26:01,265 INFO  - Calculating area
+2020-04-18 16:26:01,265 INFO  - Showing information
+2020-04-18 16:26:01,265 INFO  - Application ended
